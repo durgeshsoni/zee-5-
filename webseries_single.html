@@ -597,7 +597,18 @@
     
 </div>
 </div>
-  
+  <!-- --------------Accordion------------------ -->
+  <button class="accordion">Prepare to Sit on the Edge of Your Seat with Mithya on ZEE5!
+    <p>A gripping story featuring two strong female characters, ‘Mithya’ is a psychological thriller drama starring Huma Qureshi and Avantika Dassani. The web series is directed by Rohan Sippy, the talented director who cemented his name in Indian cinema with hits like ‘Dum Maro Dum’ and ‘Nautanki Saala’. An original adaptation of the 2019 British Series ‘Cheat’, Mithya is set in the beautiful valleys of...</p> <span class="arrow"><i class="fa-solid fa-sort-down"></i></span>
+    </button>
+    
+    <div class="panel">
+      <p>Watch the Latest Huma Qureshi Thriller ‘Mithya’ on ZEE5! <br><br>
+        An engaging six-part thriller drama, Mithya marks the debut of the talented Avantika Dassani and features Parambrata Chatterjee, Rajit Kapur and Samir Soni in pivotal roles. The series navigates the complex relationship between Juhi and Rhea, played by Huma Qureshi and Avantika Dassani. What begins as an argument between a student and professor over plagiarism quickly spirals out of control and leads to shocking revelations. <br> <br>
+        
+        Decode the Mystery of What’s Real with Mithya on ZEE5! <br><br>
+        Bringing a thought-provoking drama starring the talent powerhouse ‘Huma Qureshi’, Mithya web series is your next binge-fix. From finding the truth to exploring the complex characters, the series will keep you on the edge of your seat with its sudden twists and turns. The best thing is that you can enjoy streaming the latest episodes of Mithya web series online on ZEE5.</p>
+    </div>
     
 <!-- --------------------Footer Section ------------------------------ -->
     
@@ -714,3 +725,20 @@
 </html>
 
 <script src="./js/slideVideos.js"></script>
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    document.querySelector(".arrow").classList.toggle("rotate");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
