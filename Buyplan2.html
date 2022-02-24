@@ -190,7 +190,61 @@ button {
     margin-top: 50px;
     margin-left:45px;
     height: 30px;
-}  </style>
+}
+
+@media all and (min-width:381px) and (max-width:900px){
+    #box {
+        margin: auto;
+        width: 50%;
+    }
+    p{
+        font-size: 10px;
+    }
+    #top  {
+       margin-left: -45px;
+    }
+    #top1 {
+      margin-right: 0em;
+      margin-left: -100px;
+    }
+    button {
+        width:200px;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    p+h1 {
+      margin-left: 150px;
+    }
+    #container + p {
+        margin-left: 150px;
+    }
+   
+}
+@media all and (min-width:50px) and (max-width:380px){
+    #box {
+        width: 100%;
+        margin: auto;
+        padding: 10px;
+    }
+    #box img {
+        height: 10px;
+        width: 10px;
+    }
+    #top {
+     margin-left: 50px;
+    }
+    #top1 {
+       margin-left: 50px;
+    }
+    button {
+        width: 200px;
+    }
+}
+
+
+
+</style>
 </head>
 <body>
     <div id="container">
