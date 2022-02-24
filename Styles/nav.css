@@ -10,7 +10,7 @@
     box-sizing: border-box;
     display: flex;
     overflow: hidden;
-    justify-content: space-between;
+   
     }
     #logo {
         height: 45px;
@@ -136,10 +136,10 @@
     ul li:hover span {
         display: block;
     }
-    #menu1 {
+   #menu1 {
         width: 420px;
         background-color:black;
-        height: 1350px;
+         height: 1350px;
      border-radius: 10px;
         margin-left: 870px;
         margin-top: 80px;
@@ -217,13 +217,31 @@
         font-size: 20px;
         text-align: center;
     }
-    @media all and (min-width:381px) and (max-width:700px){
-        #container {
+    @media all and (min-width:381px) and (max-width:1000px){
+       
+        #box1 {
             display: none;
         }
+        #box2 li:nth-child(2){
+            display: none;
+        }
+       
+           
+        
+        
+   
     }
     @media all and (min-width:50px) and (max-width:380px){
-        #container {
+
+        #box1 {
             display: none;
         }
+        #box2 li:nth-child(2){
+            display: none;
+        }
+        #box2 {
+            margin-left: -0px;
+            display: flex;
+        }
+       
     }
