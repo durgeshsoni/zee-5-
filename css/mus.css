@@ -1,0 +1,660 @@
+*{
+  font-family:sans-serif;
+  color: white;
+  
+}
+
+#topContainer{
+    width: 95%;
+    height: 600px;
+  
+    margin: auto;
+    display: flex;
+    
+    gap: 15px;
+
+}
+body{
+  background-color:#0f0617;
+}
+.zee{
+    margin-left: 42px;
+    color: white;
+    margin-top:10px;
+    
+}
+#head{
+  background-image:url("https://akamaividz2.zee5.com/image/upload/w_1136,h_639,c_scale,f_webp,q_auto:eco,dpr_2.0/resources/0-0-2z564560/list/1170x658withlogo7fd30ac6189c43a69572019775e76c02.jpg");
+  border-radius:1%;
+  width:1056px;
+  background-size:cover;
+  height: 598px;
+  display:flex;
+  transition: all 0.6s;
+  cursor: pointer;
+  box-sizing: border-box;
+  position: relative;
+  
+}
+ #afterHover>p{
+   font-size: 20px;
+   margin-top:30px;
+ }
+ #afterhover+button,#afterhover+i{
+  font-size: 20px;
+  margin-top:30px;
+ }
+#afterHover{
+  margin-left: -5px;
+  width: 1047px;
+  height: 80px;
+  background-color: white;
+  
+  position: absolute;
+  top: 500px;
+  color: black;
+  display:none;
+
+}
+#afterHover>p,#afterHover button{
+  color: black;
+  
+}
+
+#head:hover>#afterHover{
+ display:block;
+}
+#head:hover{
+  border: 10px solid white;
+ 
+  
+}
+#slide{
+  width:365px;
+  height: 600px;
+  
+  overflow: scroll;
+  overflow-x: hidden;
+  scroll-margin: 10px 0 0 40px;
+  
+  
+  
+  
+}
+.title{
+  
+  margin-top:560px;
+  margin-left: 40px;
+  color: white;
+
+}
+#slide>div{
+  width: 354px;
+  height:199px;
+  border-radius:3%;
+  margin-right: 10px;
+  padding-right: 10px;
+  
+     
+}
+#slide>div:not(:first-of-type){
+  margin-top:7px;
+}
+.movie1{
+  background-image:url("https://akamaividz2.zee5.com/image/upload/w_264,h_149,c_scale,f_webp,q_auto:eco,dpr_2.0/resources/0-0-2z51247/list/1170x658withlogo8912047eeb214270b1d1c434c41827de.jpg");
+  width: 350px;
+  height: 199px;
+  background-size: cover;
+  transition: all 0.6s;
+  cursor: pointer;
+  box-sizing: border-box;
+  position: relative;
+}
+.movie2{
+  background-image:url("https://akamaividz2.zee5.com/image/upload/w_264,h_149,c_scale,f_webp,q_auto:eco,dpr_2.0/resources/0-0-2z51223/list/1170x658withlogo0ace602384ed40758e87a78f490d3737.jpg");
+  width: 350px;
+  height: 199px;
+  background-size: cover;
+}
+.movie3{
+  background-image:url("https://akamaividz2.zee5.com/image/upload/w_264,h_149,c_scale,f_webp,q_auto:eco,dpr_2.0/resources/0-0-407141/list/1170x658withlog_1554883443.jpg");
+  width: 350px;
+  height: 199px;
+  background-size: cover;
+}
+.movie4{
+  background-image:url("https://akamaividz2.zee5.com/image/upload/w_264,h_149,c_scale,f_webp,q_auto:eco,dpr_2.0/resources/0-0-403575/list/1170x658withlog_1186574719.jpg");
+  width: 350px;
+  height: 199px;
+  background-size: cover;
+}
+.movie5{
+  background-image:url("https://akamaividz2.zee5.com/image/upload/w_264,h_149,c_scale,f_webp,q_auto:eco,dpr_2.0/resources/0-0-manual-vajarh5r03c0/list/1170x658withlog_1016931595.jpg");
+  width: 350px;
+  height: 199px;
+  background-size: cover;
+}
+.movie6{
+  background-image:url("https://akamaividz2.zee5.com/image/upload/w_264,h_149,c_scale,f_webp,q_auto:eco,dpr_2.0/resources/0-0-397231/list/1170x658withlogo265782931.jpg");
+  width: 350px;
+  height: 199px;
+  background-size: cover;
+}
+.movie7{
+  background-image:url("https://akamaividz2.zee5.com/image/upload/w_264,h_149,c_scale,f_webp,q_auto:eco,dpr_2.0/resources/0-0-manual-6g7jbj88ct60/list/1170x658withlog1201401009.jpg");
+  width: 350px;
+  height: 199px;
+  background-size: cover;
+}
+.movie8{
+  background-image:url("https://akamaividz2.zee5.com/image/upload/w_264,h_149,c_scale,f_webp,q_auto:eco,dpr_2.0/resources/0-0-manual_3vnum76kfvdg/list/1170x658withlog1800124092.jpg");
+  width: 350px;
+  height: 199px;
+  background-size: cover;
+}
+.movie9{
+  background-image:url("https://akamaividz2.zee5.com/image/upload/w_264,h_149,c_scale,f_webp,q_auto:eco,dpr_2.0/resources/0-0-manual_3n270hokngk0/list/00manual3n270ho904614553.jpg");
+  width: 350px;
+  height: 199px;
+  background-size: cover;
+}
+
+ ::-webkit-scrollbar {
+  width: 10px; 
+  
+} 
+#slide>div:hover{
+  border: 6px solid white;
+}
+#slide>div{
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: border .4s;
+}
+
+::-webkit-scrollbar-track {
+  background: #4b4646; 
+}
+ 
+
+::-webkit-scrollbar-thumb {
+  background: rgb(32, 32, 32); 
+}
+
+ ::-webkit-scrollbar-thumb:hover {
+  background: rgb(53, 50, 50); 
+ }
+ button>i{
+   color: black;
+ }
+ #head>p:first-child{
+   display: flex;
+   justify-content: flex-end;
+ }
+ button,i{
+  padding-left:10px;
+  color: black;
+  font-size: 11px;
+  font-family: sans-serif;
+}
+#id
+ /* right */
+ /* 1st box */
+ .secondHover{
+  width: 345px;
+  height: 80px;
+  background-color: white;
+  position: absolute;
+  top: 110px;
+  color: black;
+  display:none;
+
+}
+.secondHover>p,.secondHover button{
+  color: black;
+}
+
+.movie1:hover>.secondHover{
+ display:block;
+}
+.movie1:hover{
+  border: 5px solid white;
+}
+
+/* 2nd box */
+.secondHover1{
+  width: 345px;
+  height: 80px;
+  background-color: white;
+  position: absolute;
+  top: 110px;
+  color: black;
+  display:none;
+
+}
+.secondHover1>p,.secondHover1 button{
+  color: black;
+}
+.movie2:hover>.secondHover1{
+  display:block;
+ }
+ .movie2:hover{
+   border: 5px solid white;
+   border-radius: 3%;
+ }
+
+
+ /* SINGERS LIST */
+ #singers{
+   width: 95%;
+   height:200px;
+   /* border: 2px solid yellow; */
+   display:flex;
+   margin: auto;
+   gap: 10px;
+ }
+ #singers>div{
+   width: 140px;
+   height:200px;
+   /* border: 2px solid pink; */
+   
+ }
+ #singers>div img{
+   width:120px;
+   height:120px;
+   border-radius: 50%;
+   margin-left: 5px;
+
+ }
+.sName{
+  text-align:center;
+}
+
+
+/*#more */
+a{
+  text-decoration: none;
+}
+
+#top_heading{
+  width:94%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  color: #ffffff;
+  margin-top: 10px;
+}
+#top_heading>h2{
+  color: white;
+}
+
+#top_heading>h2,a{
+  margin-top: 15px;
+}
+.top_heading a{
+  color:#a785ff;
+}
+
+
+/* ------------------+Music of Antim+-------------------- */
+.antContainer{
+  width: 94%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  grid-template-rows: 160px;
+  /* border: 2px solid blue; */
+  gap: 15px;
+}
+.antContainer>div:hover{
+  border: 6px solid white;
+  border-radius: 3%;
+}
+
+.antContainer>div{
+  /* border: 2px solid yellow; */
+  border-radius: 3%;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: border .4s;
+}
+.antContainer>div>a img{
+  width: 267px;
+  height:150px;
+  border-radius: 3%;
+}
+
+.antContainer>div>div{
+  transition: all 0.6s;
+  cursor: pointer;
+  box-sizing: border-box;
+  position: relative;
+}
+
+/* ZEE ORGINAL PICKS  */
+
+#zOriginal{
+  width: 94%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  grid-template-rows: 267px;
+  /* border: 2px solid blue; */
+  gap: 10px;
+}
+#zOriginal>div{
+  /* border: 2px solid yellow; */
+  
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: border .4s;
+}
+#zOriginal>div:hover{
+  border: 6px solid white;
+  border-radius: 3%;
+}
+#zOriginal>div>a img{
+  width: 350px;
+  height:208px;
+  border-radius: 3%;
+}
+
+div>h4{
+  margin-top: 10px;
+}
+
+/*--------------------- Bengali Movie------------------ */
+
+#bSongs{
+  width: 95%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  grid-template-rows: 160px;
+ 
+  gap: 13px;
+
+}
+#bSongs>div{
+  
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: border .4s;
+}
+#bSongs>div:hover{
+  border: 6px solid white;
+  border-radius: 3%;
+}
+
+#bSongs>div>a img{
+  width: 269px;
+  height:150px;
+  border-radius: 3%;
+}
+
+/* ----------------------ZEE TOP 20 SONGS------------------------ */
+
+#zeeT20{
+  width: 95%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+  grid-template-rows: 360px;
+
+  gap: 13px;
+}
+#zeeT20>div{
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: border .4s;
+}
+#zeeT20>div:hover{
+  border: 7px solid white;
+  border-radius: 3%;
+}
+
+
+#zeeT20>div>a img{
+  width: 235px;
+  height:346px;
+  border-radius: 3%;
+}
+
+/* ------------------------BRAND NEW SONGS ------------------------------- */
+
+#brdNew{
+  width: 95%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  grid-template-rows: 160px;
+  
+  gap: 13px;
+}
+#brdNew>div{
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: border .4s;
+}
+#brdNew>div:hover{
+  border: 6px solid white;
+  border-radius: 3%;
+}
+
+#brdNew>div>a img{
+  width: 269px;
+  height:150px;
+  border-radius: 3%;
+}
+
+/* ----------Musical Tribute to Sushant Singh Rajput------------ */
+#trbSushant{
+  width: 95%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  grid-template-rows: 162px;
+ 
+  gap: 13px;
+
+}
+#trbSushant>div{
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: border .4s;
+}
+#trbSushant>div:hover{
+  border: 6px solid white;
+  border-radius:3%;
+}
+
+#trbSushant>div>a img{
+  width: 269px;
+  height:150px;
+  border-radius: 3%;
+}
+
+
+/* ------- ----------------All Time Hits----------------------- ------ */
+
+#allTimeHits{
+  width: 95%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  grid-template-rows: 162px;
+ 
+  gap: 13px;
+}
+
+
+#allTimeHits>div>a img{
+  width: 269px;
+  height:150px;
+  border-radius: 3%;
+}
+
+
+/* --------------------FOOTER--------------------- */
+
+
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+  color: rgba(245, 238, 238, 0.699);
+
+}
+#footer{
+  width: 100%;
+  position: buttom;
+  bottom: 0;
+  height: 700px;
+  background-color: #0f0617;
+  font-size: 12px;
+}
+.row{
+  width: 80%;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  margin-top:30px;
+  
+}
+.footer-col>div{
+  margin-top:16px;
+}
+.end{
+  margin-top:60px;
+  width: 50%;
+  height: 50px;
+  font-size: 13px;
+  
+  margin-left: 150px;
+}
+h3{
+  font-weight: 20px;
+  color: white;
+}
+.logDiv{
+  
+  width: 80%;
+  height: 50px;
+  margin-left: 150px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+
+.container{
+  width: 99%;
+  height: 495px;
+  
+}
+.logo{
+  width: 370px;
+  gap: 10px;
+  display: flex;
+  height: 38px;
+  margin-top: 15px;
+  
+  
+}  
+/* .logo>h4{
+  margin-bottom:7px;
+} */
+.leftlogo{
+  width:330px;
+  
+  display: flex;
+  border: 2px solid #0f0617;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: space-between;
+ 
+}
+
+img{
+  width: 113px;
+  height:37px;
+  
+}
+a{
+  text-decoration:none;
+}
+.logo-On{
+  width:40px;
+  height:40px;
+}
+.about{
+  margin-top:30px;
+  width:400px;
+  height:14px;
+
+  margin-left: 150px;
+  display: flex;
+  gap: 15px;
+  justify-content: space-between;
+  
+}
+p{
+  text-align: center;
+  font-size: 11px;
+  
+}
+.topFooter{
+  
+  width:  80%;;
+  height: 210px;
+
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  margin-top:20px;
+}
+h4{
+  margin-top: 10px;
+}
+.leftlogo a{
+  width: 40px;
+  height: 40px;
+  background-color:rgb(37, 35, 35);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.leftlogo i{
+  margin-left:-8px;
+  font-size: 15px;
+  color: bisque;
+}
+.leftlogo h4{
+  margin-top: 0px;
+}
+.leftlogo .fb:hover{
+  background-color: blue;
+  cursor: pointer;
+  
+}
+.leftlogo .insta:hover{
+  background-color: rgb(211, 12, 128);
+  cursor: pointer;
+}
+.leftlogo .twitter:hover{
+  background-color: rgb(20, 153, 230);
+  cursor: pointer;
+}
+.leftlogo .youtube:hover{
+  background-color: rgb(252, 47, 10);
+  cursor: pointer;
+}
+
+.logo>h4{
+  margin-top: 25px;
+}
+.leftlogo>h4{
+  margin-top: 10px;
+}
