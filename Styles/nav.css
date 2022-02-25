@@ -309,8 +309,8 @@ margin-right: 10px;
 #box1 ul li:nth-child(7){
     display: none;
 }
-#box2 ul li:nth-child(2){
-    display: none;
+#box2 ul li:nth-child(3){
+    display: none; 
 }
 #box {
     display: flex;

@@ -261,12 +261,13 @@ i {
     font-size: 10px;
     flex-wrap: wrap;
 }
-#head , {
+#head{
     display: none;
 }
 #headp{
   margin-right: -100px;
 }
+
+
+
 }
-
-
