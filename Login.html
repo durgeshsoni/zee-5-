@@ -6,11 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./Styles/login.css">
-<style>
+        <!-- -------------------font Awesome Link------------- -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+<style>
+    button{
+        background-color: purple;
+        border: none;
+        color: white;
+        padding: 12px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+    .cross{
+    position: fixed;
+    top:4%;
+    right:7%;    
+    z-index: 999;
+}
+.cross a{
+    cursor: pointer;
+}
+  .cross i{
+      font-size: 40px;
+      color: #fff;
+    
+      cursor: pointer;
+  }
 </style>
 </head>
 <body>
+  <a class="cross" href="./index.html"><i class="fa-solid fa-xmark"></i></a>
     <div id="box">
         <h1>Login to ZEE5</h1>
         <p>Login to continue enjoying uninterrupted video and personalised experience.</p>
@@ -38,7 +68,7 @@
 
     <p><a href="https://www.zee5.com/forgotpassword">Forgot Password?</a></p>
    
-<button onClick="submit2()">Log In</button>
+<button onClick="submit2()" >Log In</button>
 <br>
 <span>New to ZEE5?</span> <a href="Signin.html">Register</a>
 </div>
