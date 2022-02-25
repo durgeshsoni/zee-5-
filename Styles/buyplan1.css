@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
 #container{
     position: fixed;
     margin: 0px;
@@ -12,7 +19,6 @@
     justify-content: space-between;
     }
 body {
-    font-family: NotoSansRegular,sans-serif;
 background-image: linear-gradient(147deg, #000000 0%, #434343 74%) , url(https://th.bing.com/th/id/OIP.G33v9ZEysgBHXorrJ8e1pAHaEK?w=294&h=180&c=7&r=0&o=5&dpr=1.41&pid=1.7);
    background-size: cover;
 font-weight: 400;
@@ -83,17 +89,17 @@ padding: 15px;
    }
 #foot > div:last-child {
     display: flex;
-    
-   
-    
+    justify-content: space-between;  
     
 }
 #foot > div > div {
    margin-top: 2.5px;
     text-align: center;
+    padding: 15px;
 }
 a{
     text-decoration: none;
+    color: #fff;
 }
 #box1 {
     width: 48%;
@@ -172,13 +178,17 @@ input{
 
 }
 button {
-    background-color: blue;
+    padding: 2%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+
+    background-color: #d00fa7;
     color: #fff;
     width: 300px;
     text-align: center;
     margin-top: 50px;
     margin-left:45px;
-    height: 30px;
 }
 #logoo {
     border-radius: 50%;
