@@ -249,5 +249,16 @@ a{
     height:250px;
     object-fit: cover;
 }
+.card{
+    
+  min-width: 180px;
+  height: 280px;
+  border-radius: 5px;
+  margin-top: 1%;
+  position: relative;
+  transition: 00.3s;
+  margin-right: 25px;
+
+}
 }
 /* ----------------------------play video start ------- ---  */

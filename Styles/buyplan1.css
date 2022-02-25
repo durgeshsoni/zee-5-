@@ -11,6 +11,7 @@
     top: 0%;
     margin-left: -5px;
     width: 100%;
+    height: 100%;
     background: transparent;
     height: 80px;
     padding: 15px;
@@ -18,10 +19,29 @@
     display: flex;
     justify-content: space-between;
     }
+
+    #bg{
+        position: fixed;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+  
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        filter: blur(5px);
+        -webkit-filter: blur(5px);
+        -moz-filter: blur(5px);
+        -o-filter: blur(5px);
+        -ms-filter: blur(5px);
+    }
 body {
-background-image: linear-gradient(147deg, #000000 0%, #434343 74%) , url(https://th.bing.com/th/id/OIP.G33v9ZEysgBHXorrJ8e1pAHaEK?w=294&h=180&c=7&r=0&o=5&dpr=1.41&pid=1.7);
-   background-size: cover;
 font-weight: 400;
+
+
+
 }
 
 #logo {
@@ -58,14 +78,18 @@ font-weight: 400;
        margin-top: -10px;
    }
    #box{
-       height: 450px;
+       height: auto;
        width: 65%;
        background-color: #fff;
        margin: auto;
        border-radius: 10px;
-       display: flex;
+       display: grid;
+       grid-template-columns: repeat(2,1fr);
+       /* flex-wrap: wrap; */
        justify-content: space-between;
        box-sizing: border-box;
+       overflow: hidden;
+       padding: 5%;
       
    }
    #foot{
@@ -102,7 +126,7 @@ a{
     color: #fff;
 }
 #box1 {
-    width: 48%;
+    width: 95%;
     height: 100%;
     background-color: aqua;
     border-radius: 10px;
@@ -110,6 +134,7 @@ a{
     box-sizing: border-box;
     padding-left: 25px;
     line-height: 40px;
+    overflow: hidden;
     
     border-color: rgba(255,0,145,.15);
 
@@ -127,8 +152,8 @@ a{
     cursor: pointer;
 }
 #box2 {
-    height: 100px;
-    width: 400px;
+    /* height: 100px; */
+    width: 90%;
     margin-right: 35px;
     margin-top: 20px;
     background-color: linear-gradient(281.1deg,rgba(161,0,255,.1) -5.78%,rgba(255,0,0,.1) 114.22%);
@@ -170,12 +195,11 @@ input{
     background-color: aqua;
     border:0.3px solid rgba(255,0,145,.15);
     border-radius: 5px;
-    width: 400px;
     box-sizing: border-box;
     height: 50px;
     margin-top: 40px;
     padding: 15px;
-
+    width: 90%;
 }
 button {
     padding: 2%;
@@ -201,14 +225,25 @@ i {
     margin-left: 370px;
     margin-top: 15px;
 }
-@media all and (min-width:381px) and (max-width:900px){
-#box{
-    width: auto;
-}
 
+
+@media screen and (max-width:650px) {
+
+    #box{
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+}
+@media all and (min-width:381px) and (max-width:900px){
+
+#foot{
+    display: none;
+}
 }
 @media all and (min-width:50px) and (max-width:380px){
-#box{
-    width: 100%;
+
+
+#foot{
+    display: none;
 }
 }
