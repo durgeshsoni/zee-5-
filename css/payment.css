@@ -66,3 +66,22 @@ button{
 ::placeholder{
     color: #b36916;
 }
+
+@media only screen and (max-width: 400px){
+    .paymentBox{
+        position: absolute;
+        left: 20px;
+        width: 90%;
+        border-radius: 10px;
+        margin-top: 15px;
+    }
+    #details #form{
+     
+        width: 100%;
+        margin: auto;
+        
+    }
+    button{
+        width: 100%;
+    }
+    }

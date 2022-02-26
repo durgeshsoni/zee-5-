@@ -9,6 +9,7 @@ h1{
      
 }
 
+
 body{
     font-family: NotoSansBold,sans-serif;
     background: #0f0617;
@@ -25,7 +26,7 @@ body{
 
 }
     
-img{
+img{ 
     border-radius: 50%;
     margin-top: 20px;
    
@@ -97,6 +98,10 @@ button{
     margin-bottom: 20px;
 }
 @media all and (min-width:381px) and (max-width:900px){
+    #fang{
+        width: 50px;
+        height: 50px;
+    }
     #box {
         margin: auto;
         width: 45%;
@@ -113,6 +118,9 @@ button{
    
 }
 @media all and (min-width:50px) and (max-width:380px){
+    .fang img{
+       display: none;
+    }
     #box {
         width: 100%;
         margin: auto;
@@ -126,5 +134,15 @@ button{
     }
     #top1 {
        margin-left: 50px;
+    }
+    #loginhead{
+        font-size: 14px;
+        margin-top: 50px;
+    }
+    #desc{
+        font-size: 12px;
+        width: 80%;
+        text-align: center;
+        margin: auto;
     }
 }

@@ -1,3 +1,18 @@
+#pass{
+    border: none;
+    border-bottom: 1px solid rgb(12, 191, 223);
+    
+}
+#email{
+    border: none;
+    border-bottom: 1px solid rgb(12, 191, 223);
+    
+}
+#pass2{
+    border: none;
+    border-bottom: 1px solid rgb(12, 191, 223);
+    
+}
 span , p{
     color: #cfc3ca;
      font-size: 15px;
@@ -37,7 +52,7 @@ a{
 }
 #box > #or{
     
-background: rgba(129, 4, 4, 0.781);
+/* background: rgba(129, 4, 4, 0.781); */
 border-radius: 50%;
 height: 30px;
 width: 30px;
@@ -47,7 +62,7 @@ margin:auto;
 margin-top: 25px;
 margin-bottom: 35px;
 text-align: center;
-margin-left: 195px;
+/* margin-left: px; */
 padding: 7px;
 
 }
@@ -63,6 +78,7 @@ input{
   
     margin-left: 10px;
 }
+
 #top{
     color: #cfc3ca;
     font-size: 15px;
@@ -84,12 +100,12 @@ input{
     margin-right:213px;
 
 }
-.line {
+/* .line {
     width: 86%;
     margin: auto;
     height: 1px;
     background: red;
-}
+} */
 button{
     background-color: transparent;
     width: 200px;
