@@ -24,6 +24,7 @@ ZEE5 CLONE {netlify}
 4. Parimal
 5. Vaibhav
 
+![OUR TEAM (1)](https://user-images.githubusercontent.com/81063456/155844823-4b3181ca-2be4-470c-bbc4-d4712a20a788.png)
 
 <h1>Home Page </h1>
 
