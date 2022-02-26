@@ -215,5 +215,15 @@
 
     #showDetailBaner{
       height: 400px;
+      object-fit: cover;
     }
+}
+
+@media (min-width:51px) and (max-width: 381px) {
+
+    #showDetailBaner{
+      height: 350px;
+      object-fit: cover;
+    }
+
 }

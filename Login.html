@@ -57,14 +57,14 @@
     <div id="or">
         or
     </div>
-    <span id="top">Enter Phone or Email ID</span>
+    <!-- <span id="top">Enter Phone or Email ID</span> -->
     <br>
-    <input type="text" id="mail" name="Email ID or Mobile Number" >
+    <input type="text" id="mail" name="Email ID or Mobile Number" placeholder="Enter Phone or Email ID" required >
     <div class="line"></div>
 <br>
-    <span id="top1">Enter Password</span>
+    <!-- <span id="top1">Enter Password</span> -->
     <br>
-    <input type="password" id="pass1"  name="Password" >
+    <input type="password" id="pass1"  name="Password" placeholder="Enter Password" required>
 
     <div class="line"></div>
 
@@ -93,7 +93,9 @@
       if (regdUsers[i].email == mail && regdUsers[i].pass == pass1) {
         flag=true;
 
-      } 
+      } else{
+        flag=false;
+      }
     }
     if(flag==true){
         

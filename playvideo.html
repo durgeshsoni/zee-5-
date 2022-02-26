@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./css/video.css">
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./Styles/nav.css">
+    <link rel="stylesheet" href="./css/webseries_single.css">
 
         <!-- -------------------font Awesome Link------------- -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -137,8 +138,18 @@
                 <p>Subtiles: <span style="color: gray">Hindi</span></p>  
 
                 <div class="desc">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum est asperiores similique consectetur dolores itaque, accusantium ducimus minus odio quas error laudantium cupiditate, placeat quasi?
-
+            <!-- --------------Accordion------------------ -->
+  <button class="accordion">Prepare to Sit on the Edge of Your Seat with Mithya on ZEE5!
+    <p>A gripping story featuring two strong female characters, ‘Mithya’ is a  beautiful valleys of...</p> <span class="arrow"><i class="fa-solid fa-sort-down"></i></span>
+    </button>
+    
+    <div class="panel">
+      <p>Watch the Latest Huma Qureshi Thriller ‘Mithya’ on ZEE5! <br><br>
+        An engaging six-part thriller drama, Mithya Parambrata Chatterjee, Rajit Kapur and Samir Soni in pivotal roles.  <br> <br>
+        
+        Decode the Mystery of What’s Real with Mithya on ZEE5! <br><br>
+        Bringing a thought-provoking drama starring the talent powerhouse ‘Huma Qureshi’, Mithya web series is your next binge-fix..</p>
+    </div>
                 </div>
             </div>
              <div class="right">
@@ -611,3 +622,21 @@
 <script src="./js/video.js"></script>
 <script src="./js/slideVideos.js"></script>
 <script src="./js/nav.js"></script>
+
+<script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+    
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        document.querySelector(".arrow").classList.toggle("rotate");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+          panel.style.display = "none";
+        } else {
+          panel.style.display = "block";
+        }
+      });
+    }
+    </script>

@@ -35,9 +35,12 @@ img{
 a{
     text-decoration: none;
 }
+::placeholder{
+    color: #fff;
+}
 #box > #or{
     
-background: rgba(129, 4, 4, 0.781);
+/* background: rgba(129, 4, 4, 0.781); */
 border-radius: 50%;
 height: 30px;
 width: 30px;
