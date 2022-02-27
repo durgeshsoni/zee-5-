@@ -41,12 +41,3 @@ displayWebseries(moviesArr);
 
 
 
-function sortfunc(){
-    var sort = document.querySelector('#sort').value;
-        
-    filterData = webseriesArr.filter(function (elem) {
-        return elem.cat == sort;
-    })
-    displayWebseries(filterData)
-//     console.log(filterData);
-}
